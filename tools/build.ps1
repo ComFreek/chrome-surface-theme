@@ -12,4 +12,5 @@ function create-7zip([String] $aDirectory, [String] $aZipfile){
 
 cmd /c pack.bat
 create-7zip "..\surface-theme.crx" "..\surface-theme.zip"
+Remove-Item "..\surface-theme.crx"
 PAUSE
